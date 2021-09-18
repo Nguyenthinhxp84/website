@@ -6,7 +6,12 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/res.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 	<section class="top">
@@ -29,7 +34,7 @@
 		</div>
 	</section>
 	<section class="big-img">
-		<div class="big-img-content">
+		<div class="big-img-content" data-aos="fade-up" data-aos-duration="1500">
 			<h2>Trung tâm Thư viện</h2>
 			<p>– Tầm nhìn: Trở thành Trung tâm Thư viện hiện đại, đứng đầu trong hệ thống thư viện các trường Đại học thuộc Bộ Công Thương, ngang tầm với các thư viện đại học lớn trong nước và khu vực.<br>
 				– Sứ mệnh: Cung cấp nguồn tài nguyên thông tin phong phú, đa dạng và chất lượng phục vụ công tác học tập, giảng dạy và nghiên cứu khoa học; Tạo ra các sản phẩm và dịch vụ thông tin – thư viện chất lượng cao góp phần tích cực vào việc nâng cao chất lượng đào tạo của Nhà trường.</p>
@@ -44,7 +49,7 @@
 				</div>
 			</div>
 			<div class="row">
-					<div class="about-item">
+					<div class="about-item" data-aos="fade-up-right" data-aos-duration="1500">
 						<h2>CHÀO MỪNG CÁC BẠN ĐẾN WEBSITE</h2>
 						<p>– Trung tâm Thư viện Trường Đại học Công nghiệp Thành phố Hồ Chí Minh được đặt tại vị trí nhà A, B, H (cơ sở chính). Thời gian phục vụ bạn đọc: Hằng ngày từ 06h30 đến 22h00;<br>
 						– Diện tích Thư viện là 2730 m2 với 1200 chỗ ngồi học; 14 phòng học nhóm và thảo luận chuyên đề; 3 phòng nghiên cứu dành cho các cán bộ, giảng viên, các chuyên gia nghiên cứu khoa học; 1 phòng đa phương tiện.<br>
@@ -53,7 +58,7 @@
 							WEBSITE
 						</button>
 					</div>
-					<div class="about-item">
+					<div class="about-item" data-aos="fade-up-left" data-aos-duration="1500">
 						<div class="about-item-img">							
 							<span>Hơn 10 năm kinh nghiệm</span>
 							<img src="image/contact_bg.jpg" alt="">
@@ -65,20 +70,500 @@
 	<section class="menu section-pading">
 		<div class="container">
 			<div class="row">
-				<div class="section-title">
+				<div class="section-title" data-aos="zoom-in" data-aos-duration="1500">>
 					<h2 data-title= "Đặt ngay">Thực đơn</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="menu-title">
-					<button class="menu-button active">Trưa</button>
-					<button class="menu-button">Chiều tối</button>
-					<button class="menu-button">Đồ Uống</button>
-					<button class="menu-button">Điểm tâm</button>
+				<div class="menu-title" data-aos="zoom-in" data-aos-duration="1500">>
+					<button class="menu-button active" data-title="#Trua">Trưa</button>
+					<button class="menu-button" data-title="#Chieu">Chiều tối</button>
+					<button class="menu-button" data-title="#do-uong">Đồ Uống</button>
+					<button class="menu-button" data-title="#diem-tam" >Điểm tâm</button>
 				</div>
+			</div>
+			<div class="row justify-content">
+				<div class="menu-item-content active" id="Trua" data-aos="zoom-in" data-aos-duration="1500">
+					<div class="food-items">
+					<div class="food-item">
+						<img src="image/1.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/2.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/3.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/4.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/5.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/6.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/7.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/8.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/9.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/10.jpg" alt=""> 
+						<p>Món A</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				</div>
+				<div class="menu-item-content" id="Chieu">
+					<div class="food-items">
+					<div class="food-item">
+						<img src="image/1.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/2.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/3.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/4.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/5.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/6.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/7.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/8.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/9.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/10.jpg" alt=""> 
+						<p>Món Chiều</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				</div>
+				<div class="menu-item-content" id="do-uong">
+					<div class="food-items">
+					<div class="food-item">
+						<img src="image/1.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/2.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/3.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/4.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/5.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/6.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/7.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/8.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>Đồ Uống</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/9.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/10.jpg" alt=""> 
+						<p>Đồ Uống</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				</div>
+				<div class="menu-item-content"id="diem-tam">
+					<div class="food-items">
+					<div class="food-item">
+						<img src="image/1.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/2.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/3.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/4.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/5.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/6.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/7.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/8.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/9.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				<div class="food-items">
+					<div class="food-item">
+						<img src="image/10.jpg" alt=""> 
+						<p>Điểm tâm</p>
+					</div>
+					<div class="food-price">
+						<p>150.000 VND</p>
+					</div>
+				</div>
+				</div>	
+
+				
 			</div>
 		</div>
 	</section>
+	<section class="phan-hoi section-pading">
+		<div class="container">
+			<div class="row">
+				<div class="section-title" data-aos="flip-up" data-aos-duration="1500">
+					<h2 data-title="Ý kiến">Phản hồi</h2>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="phan-hoi-items" data-aos="flip-up" data-aos-duration="1500">
+					<div class="phan-hoi-item">
+						<div class="phan-hoi-item-content">
+							<div class="phan-hoi-item-img-content-text">
+								<h2>Nguyễn Văn A</h2>
+								<span>Food Specialist</span>
+							</div>
+							<div class="phan-hoi-item-img-content-img">
+								<img src="image/avata/01.jpg" alt="">
+							</div>
+						</div>
+						<p>Thư viện có 193.612 tài liệu in ấn, 8 CSDL trực tuyến với hàng triệu tài liệu toàn văn, thư viện số với gần 20.000 tài liệu điện tử nội sinh (sách, luận văn, luận án, báo cáo, bài báo, tạp chí nghiên cứu), trang thông tin điện tử và mạng xã hội.</p>
+						<div class="phan-hoi-item-star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="phan-hoi-item">
+						<div class="phan-hoi-item-content">
+							<div class="phan-hoi-item-img-content-text">
+								<h2>Nguyễn Văn A</h2>
+								<span>Food Specialist</span>
+							</div>
+							<div class="phan-hoi-item-img-content-img">
+								<img src="image/avata/01.jpg" alt="">
+							</div>
+						</div>
+						<p>Thư viện có 193.612 tài liệu in ấn, 8 CSDL trực tuyến với hàng triệu tài liệu toàn văn, thư viện số với gần 20.000 tài liệu điện tử nội sinh (sách, luận văn, luận án, báo cáo, bài báo, tạp chí nghiên cứu), trang thông tin điện tử và mạng xã hội.</p>
+						<div class="phan-hoi-item-star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="phan-hoi-item">
+						<div class="phan-hoi-item-content">
+							<div class="phan-hoi-item-img-content-text">
+								<h2>Nguyễn Văn A</h2>
+								<span>Food Specialist</span>
+							</div>
+							<div class="phan-hoi-item-img-content-img">
+								<img src="image/avata/01.jpg" alt="">
+							</div>
+						</div>
+						<p>Thư viện có 193.612 tài liệu in ấn, 8 CSDL trực tuyến với hàng triệu tài liệu toàn văn, thư viện số với gần 20.000 tài liệu điện tử nội sinh (sách, luận văn, luận án, báo cáo, bài báo, tạp chí nghiên cứu), trang thông tin điện tử và mạng xã hội.</p>
+						<div class="phan-hoi-item-star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="footer">
+		<div class="footer-bg">
+			
+		</div>
+		<div class="container">
+			<div class="row justify-content">
+				<div class="footer-item">
+					<h2>Địa Chỉ</h2>
+					<p>12 Nguyễn Văn Bảo<br>Phường 4, quận Gò Vấp</p>
+					
+				</div>
+				<div class="footer-item">
+					<h2>Giờ mở cửa</h2>
+					<p>Hàng ngày: 06:30 đến 21:00<br>T7, CN: 07:00 đến 18:00</p>
+					
+				</div>
+				<div class="footer-item">
+					<h2>Liên hệ</h2>
+					<p>Phone: 0984458061<br>Email: nguyenthinhxp@gmail.com</p>
+					<div class="footer-social">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-linkedin-in"></i>
+						<i class="fab fa-youtube"></i>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="footer-copyright">
+			@2021. Toàn bộ bản quyền thuộc Thai MarKet
+		</div>
+		</div>
+	</section>
 	<script src="js/scripts.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+	
 </body>
 </html>

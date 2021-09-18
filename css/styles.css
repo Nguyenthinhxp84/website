@@ -6,6 +6,7 @@
 	--text-color: #fff;
 	--span-color: red;
 	--menu--color: #0C1023;
+	--bd-color: #eeeeee57;
 }
 
 * {
@@ -181,7 +182,7 @@ a {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-image: url(https://nguyenthinhxp84.github.io/website//image/bg.jpg);
+	background-image: url("file:///C:/Users/Lib-NV-PC01/Desktop/Website/website/image/bg.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -337,4 +338,172 @@ a {
 
 .menu-title .menu-button:hover {
 	color: var(--sub-color);
+}
+.food-items {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 15px;
+	position: relative;
+}
+
+.food-item::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 0;
+	border: 1px dashed #eeeeee57;
+}
+
+.food-items:hover .food-item p {
+	color: var(--sub-color);
+}
+
+.food-items:hover .food-price p {
+	color: var(--text-color);
+}
+
+.food-item {
+	display: flex;
+	align-items: center;
+}
+
+.food-item img {
+	width: 150px;
+	margin-right: 25px;
+}
+.food-item p {
+	color: var(--text-color);
+	transition: all 0.3s ease-in;
+	font-size: 20px;
+}
+.food-price p {
+	color: var(--sub-color);
+	transition: all 0.3s ease-in;
+	font-size: 20px;
+}
+
+
+.menu-item-content {
+	display: none;
+}
+
+.menu-item-content.active {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.phan-hoi {
+	background-color: var(--main-color);
+}
+
+.phan-hoi-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.phan-hoi-item {
+	width: calc(100%/3 - 30px);
+	margin: 0 15px;
+	border: 2px solid var(--bd-color);
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0,0,0,15px rgba(0, 0, 0, 0.7);
+}
+.phan-hoi-item:hover img {
+	border-color: var(--sub-color);
+}
+
+.phan-hoi-item span {
+	color: var(--text-color);
+}
+
+.phan-hoi-item h2 {
+	font-size: 20px;
+	color: var(--text-color);
+}
+
+.phan-hoi-item p {
+	color: var(--text-color);
+	font-size: 20px;
+	margin: 20px 0;
+}
+.phan-hoi-item img {
+	width: 150px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid var(--menu--color);
+	transition: all 0.5s ease;
+}
+
+.phan-hoi-item-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.phan-hoi-item-star i {
+	color: var(--sub-color);
+}
+
+.footer {
+	padding-top: 80px;
+	position: relative;
+}
+.footer-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("file:///C:/Users/Lib-NV-PC01/Desktop/Website/website/image/footer.jpg");	
+	z-index: -2;
+}
+.footer:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	top: 0;
+	opacity: 0.4;
+	z-index: -1;
+}
+.footer-item {
+	text-align: center;
+	width: calc(100%/3);
+}
+.footer-item i {
+	color: #fff;
+	font-size: 25px;
+	margin-right: 12px;
+	cursor: pointer;
+	transition: var(--sub-color);
+}
+
+.footer-item i:hover {
+	color: var(--sub-color);
+}
+.footer h2 {
+	color: var(--text-color);	
+	font-size: 20px;
+}
+
+.footer p {
+	color: var(--text-color);
+	margin: 12px 0;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding: 30px 0 30px;
+	color: var(--bd-color);
+	margin-top: 20px;
+	border-top: 2px solid var(--bd-color);
 }
