@@ -181,14 +181,16 @@ a {
 	overflow: hidden;
 }
 .big-img::before {
+	dcolor: "";
 	display: block;
-	padding-top: 10rem;
-  	padding-bottom: calc(10rem - 4.5rem);
-  	background-image: url(https://nguyenthinhxp84.github.io/website/image/bg.jpg);
- 	background-position: center;
-  	background-repeat: no-repeat;
-  	background-attachment: scroll;
-  	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(https://nguyenthinhxp84.github.io/website/image/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 @keyframes inout {
 	0%,100% {
