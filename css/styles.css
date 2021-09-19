@@ -433,7 +433,7 @@ a {
 }
 
 .phan-hoi-item {
-	width: calc(100%/3 - 30px);
+	width: calc(100%/4 - 30px);
 	margin: 15px 15px;
 	border: 2px solid var(--bd-color);
 	padding: 15px;
