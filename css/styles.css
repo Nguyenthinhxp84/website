@@ -191,6 +191,7 @@ a {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	z-index: -1;
 }
 @keyframes inout {
 	0%,100% {
@@ -201,6 +202,7 @@ a {
 	}
 }
 .big-img::after {
+	.big-img::after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -208,8 +210,8 @@ a {
 	height: 100%;
 	background-color: black;
 	opacity: 0.3;
+	z-index: -2;
 }
-
 .big-img .big-img-content {
 	text-align: center;
 	max-width: 1200px;
