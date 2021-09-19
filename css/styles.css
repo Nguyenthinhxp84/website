@@ -61,7 +61,7 @@ a {
 }
 
 .top {
-	background-color: #0d84e2;
+	background-color: #fff;
 	position: fixed;
 	width: 100vw;
 	z-index: 99;
@@ -233,7 +233,7 @@ a {
 .big-img .big-img-content p{
 	font-size: 25px;
 	content: var(--text-color);
-	font-weight: bold;
+	/* font-weight: bold; */
 	margin: 15px 0;
 	font-family: 'Merriweather', serif;
 	margin-left: 15px;
