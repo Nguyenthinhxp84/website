@@ -9,6 +9,7 @@
 	--menu--color: #0C1023;
 	--bd-color: #eeeeee57;
 	--hotro-color:  black;
+	--Toggle-color: #0d84e2;
 }
 
 * {
@@ -149,7 +150,7 @@ a {
 	position: fixed;
 	width: 280px;
 	height: 100vh;
-	background-color: var(--main-color);
+	background-color: var(--Toggle-color);
 	right: 0;
 	top: 0;
 	padding: 80px 50px;
