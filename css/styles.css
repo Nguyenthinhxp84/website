@@ -422,8 +422,7 @@ a {
 }
 
 .phan-hoi {
-	background-color: var(--main-color);
-	text-transform: unset;
+	background-color: var(--main-color);	
 }
 
 .phan-hoi-items {
