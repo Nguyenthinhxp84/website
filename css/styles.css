@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 :root {
 	--main-color: #3f51b5;
 	--sub-color: #EAA023;
@@ -190,8 +191,7 @@ a {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	z-index: -2;
-	animation: inout 5s infinite;
+	z-index: -1;
 } 
 
 @keyframes inout {
@@ -220,7 +220,7 @@ a {
 .big-img .big-img-content h2{
 	font-size: 50px;
 	content: var(--text-color);
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Oswald', sans-serif;
 	color: var(--text-color);
 }
 
@@ -229,7 +229,7 @@ a {
 	content: var(--text-color);
 	font-weight: bold;
 	margin: 15px 0;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Oswald', sans-serif;
 	margin-left: 15px;
 	margin-right: 15px;
 	text-align: justify;
