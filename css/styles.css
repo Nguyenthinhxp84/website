@@ -185,7 +185,7 @@ a {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-image: url(https://nguyenthinhxp84.github.io/website/image/bg.jpg);
+	background-image: url(file:///C:/Users/Lib-NV-PC01/Desktop/Website/website/image/bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -422,7 +422,8 @@ a {
 }
 
 .phan-hoi {
-	background-color: var(--main-color);	
+	background-color: var(--main-color);
+	text-transform: unset;
 }
 
 .phan-hoi-items {
@@ -477,7 +478,8 @@ a {
 
 .footer {
 	padding-top: 80px;
-	position: relative;
+	position: relative;	
+	text-transform: unset;
 }
 .footer-bg {
 	position: absolute;
