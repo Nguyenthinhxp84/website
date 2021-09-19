@@ -547,6 +547,7 @@ a {
 .ho-tro .ho-tro-item h2 {
 	color: var(--sub-color);
 	font-size: 35px;
+	text-transform: uppercase;
 }
 
 .ho-tro .ho-tro-item p {
