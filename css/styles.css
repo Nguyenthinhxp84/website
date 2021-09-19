@@ -255,7 +255,7 @@ a {
 }
 .section-title h2{
 	font-size: 40px;
-	color: var(--text-color);
+	color: var(--sub-color);
 	text-transform: uppercase;
 }
 
