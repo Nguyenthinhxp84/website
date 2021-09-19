@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 :root {
 	--main-color: #3f51b5;
 	--sub-color: #EAA023;
@@ -187,7 +187,7 @@ a {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-image: url(https://nguyenthinhxp84.github.io/website/image/bg.jpg);
+	background-color: var(--main-color);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -221,7 +221,7 @@ a {
 .big-img .big-img-content h2{
 	font-size: 50px;
 	content: var(--text-color);
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Merriweather', serif;
 	color: var(--text-color);
 }
 
@@ -230,7 +230,7 @@ a {
 	content: var(--text-color);
 	font-weight: bold;
 	margin: 15px 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Merriweather', serif;
 	margin-left: 15px;
 	margin-right: 15px;
 	text-align: justify;
