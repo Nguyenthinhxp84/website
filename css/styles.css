@@ -202,7 +202,7 @@ a {
 	}
 }
 .big-img::after {
-	.big-img::after {
+	.big-img::after
 	content: "";
 	display: block;
 	position: absolute;
