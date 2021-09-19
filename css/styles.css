@@ -504,6 +504,7 @@ a {
 }
 .footer-item {
 	text-align: center;
+	width: calc(100%/3);
 }
 .footer-item i {
 	color: #fff;
