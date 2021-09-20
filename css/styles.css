@@ -185,8 +185,7 @@ a {
 	background-attachment: fixed;
 	background-size: cover;
 	z-index: -2;
-	background-image: url(file:///C:/Users/Lib-NV-PC01/Desktop/Website/website/image/backgound.jpg);
-	
+	background-image: url(https://nguyenthinhxp84.github.io/website/image/backgound.jpg);	
 }
 
 .big-img::before {
