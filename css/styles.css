@@ -179,6 +179,7 @@ a {
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
+	background-image: url(https://nguyenthinhxp84.github.io/website/image/bigimg.jpg);	
 }
 
 .big-img::before {
