@@ -36,9 +36,7 @@
 	}
 	
 }
-
-
-@media (max-width: 760px) {
+@media (max-width: 960px) {
 	label.logo {
 		font-size: 30px;
 		padding-left: 50px;
