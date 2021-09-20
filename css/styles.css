@@ -23,9 +23,9 @@
 .btn {
 	background-color: transparent;
 	padding: 10px 40px;
-	border: 2px solid #cddc39;
+	border: 2px solid #eee;
 	border-radius: 50px;
-	color: #cddc39;
+	color: #3f51b5;
 	cursor: pointer;
 	margin: 10px;
 	/* text-align: center; */
