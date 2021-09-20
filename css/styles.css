@@ -395,71 +395,63 @@ a {
 }
 
 
-.menu-title {
+.menu-hs {
+	background-color: var(--text-color);
+}
+
+.menu-hs-title {
 	width: 100%;
 	text-align: center;
 }
 
-.menu-title .menu-button {
+.menu-hs-title .menus-button {
 	background-color: transparent;
 	margin: 10px 12px;
 	border: none;
 	font-size: 20px;
-	color: var(--text-color);
+	color: var(--main-color);
 }
 
-.menu-title .menu-button.active {
-	color: var(--sub-color);
+.menu-hs-title .menus-button.active {
+	color: var(--span-color);
 }
 
-.menu-title .menu-button:hover {
-	color: var(--sub-color);
+.menu-hs-title .menus-button:hover {
+	color: var(--span-color);
 }
-.food-items {
-	width: 50%;
+.hoisach-items {
+	width: calc(100%/2)
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 20px 47px;
 	position: relative;
 }
 
-.food-item::before {
+.hoisach-item::before {
 	content: "";
 	display: block;
 	position: absolute;
 	left: 15px;
 	right: 15px;
 	bottom: 0;
-	border: 1px dashed #eeeeee57;
+	border: 2px dashed var(--span-color);
+	width: 92%;
 }
 
-.food-items:hover .food-item p {
+.hoisach-items:hover .hoisach-item p {
 	color: var(--sub-color);
 }
 
-.food-items:hover .food-price p {
-	color: var(--text-color);
-}
-
-.food-item {
+.hoisach-item {
 	display: flex;
 	align-items: center;
 }
 
-.food-item img {
-	width: 150px;
+.hoisach-item img {
+	width: 100%;
 	margin-right: 25px;
-}
-.food-item p {
-	color: var(--text-color);
-	transition: all 0.3s ease-in;
-	font-size: 20px;
-}
-.food-price p {
-	color: var(--sub-color);
-	transition: all 0.3s ease-in;
-	font-size: 20px;
+
 }
 
 
