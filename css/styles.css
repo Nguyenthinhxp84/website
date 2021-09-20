@@ -92,13 +92,13 @@ img {
 	transition: all 0.3 ease;
 }
 
-ul {
+/* ul {
 	list-style: none;
 }
 
-/*nav {
+nav {
 	background-color: var(--Toggle-color);
-}*/
+
 
 nav #main-menu li a {
 	color: var(--text-color);
@@ -117,7 +117,7 @@ nav #main-menu li:hover a {
 	justify-content: space-around;
 	display: flex;
 }
-
+}*/
 .toggle {
 	display: none;
 	text-align: right;
