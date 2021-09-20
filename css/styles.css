@@ -187,7 +187,7 @@ a {
 	background-attachment: fixed;
 	background-size: cover;
 	z-index: -2;
-	background-image: url(https://nguyenthinhxp84.github.io/website/image/backgound.jpg);	
+	background-image: url(https://nguyenthinhxp84.github.io/website/image/backgound.jpg);
 }
 
 .big-img::before {
