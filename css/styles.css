@@ -59,6 +59,10 @@ nav #main-menu li:hover a {
 	background-color: #0d84e2;
 	transition: all 0.3s;
 }
+.navbar {
+	justify-content: space-around;
+	display: flex;
+}
 
 .toggle {
 	display: none;
