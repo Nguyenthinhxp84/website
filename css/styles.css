@@ -176,14 +176,15 @@ a {
 	justify-content: center;
 	align-items: center;
 	 max-width:100%;
-	height: 100vh;
+	height: 800px;
 	position: relative;
 	overflow: hidden;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-image: url(https://nguyenthinhxp84.github.io/website/image/backgound.jpg);
+	z-index: -2;
+	background-image: url(https://nguyenthinhxp84.github.io/website/image/bigimg.jpg);
 }
 
 .big-img::before {
@@ -191,8 +192,12 @@ a {
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;	
-	zindex:1;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: -2;
 }
 @keyframes inout {
 	0%,100% {
