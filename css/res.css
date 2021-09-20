@@ -19,3 +19,20 @@
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 1068px) {
+	#navbar {
+		flex-direction: column;
+		text-align: left;
+	}
+
+	.toggle {
+		display: block;
+
+	}
+	nav {
+		display: none;		
+		background: #902a2c;
+	}
+	
+}
