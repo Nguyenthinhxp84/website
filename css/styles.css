@@ -21,7 +21,7 @@
 	box-sizing: border-box;
 }
 
-/* nav mới */
+
 
 nav {
 	background:var(--sub-color);
@@ -69,7 +69,7 @@ nav ul li a {
 	display: none;
 }
 
-/* ket thuc */
+
 
 
 img {
@@ -96,9 +96,9 @@ ul {
 	list-style: none;
 }
 
-nav {
+/*nav {
 	background-color: var(--Toggle-color);
-}
+}*/
 
 nav #main-menu li a {
 	color: var(--text-color);
