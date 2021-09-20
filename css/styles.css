@@ -183,7 +183,7 @@ a {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	
+	background-image: url(https://nguyenthinhxp84.github.io/website/image/backgound.jpg);
 }
 
 .big-img::before {
@@ -191,12 +191,8 @@ a {
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-image: url(https://nguyenthinhxp84.github.io/website/image/backgound.jpg);
+	height: 100%;	
+	zindex:1;
 }
 @keyframes inout {
 	0%,100% {
