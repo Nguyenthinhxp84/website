@@ -47,14 +47,16 @@ nav {
 }
 
 nav #main-menu li a {
-	color: var(--hotro-color);
+	color: var(--text-color);
 	text-decoration: none;
 	display: block;
 	padding: 15px 15px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 nav #main-menu li:hover a {
-	background-color: #c23616;
+	background-color: #0d84e2;
 	transition: all 0.3s;
 }
 
@@ -66,11 +68,12 @@ nav #main-menu li:hover a {
 	padding: 10px;
 	font-size: 20px;
 	cursor: pointer;
-
+    
 }
 
 #main-menu {
 	display: flex;
+	background-color: #0d84e2;
 }
 
 a {
