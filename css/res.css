@@ -1,4 +1,4 @@
-@media (max-width: 231px) {
+@media (max-width: 768px) {
 	.top {
 		padding: 0 10px;
 	}
@@ -20,7 +20,7 @@
 	}
 }
 
-@media (max-width:  231px) {
+@media (max-width:  1160px) {
 	label.logo {
 		font-size: 30px;
 		padding-left: 50px;
