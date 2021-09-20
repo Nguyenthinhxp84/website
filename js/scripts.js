@@ -11,15 +11,15 @@ window.addEventListener("scroll", function(){
 	else{toP.classList.remove("active")}	
 })
 
-const menuTitle = document.querySelector(".menu-title");
+const menuTitle = document.querySelector(".menu-hs-title");
 menuTitle.addEventListener("click",function(x) {
-	if(x.target.classList.contains("menu-button")){
+	if(x.target.classList.contains("menus-button")){
 		const Target = x.target.getAttribute("data-title");
 		// console.log(Target)
 		menuTitle.querySelector(".active").classList.remove("active");
 		x.target.classList.add("active");
 
-		const menuItem = document.querySelector(".menu");
+		const menuItem = document.querySelector(".menu-hs");
 		menuItem.querySelector(".menu-item-content.active").classList.remove("active");
 		menuItem.querySelector(Target).classList.add("active")
 	}
