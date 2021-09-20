@@ -551,10 +551,15 @@ a {
 	background-color: var(--text-color);
 }
 
-.ho-tro .ho-tro-item h2 {
++ {
 	color: var(--sub-color);
 	font-size: 35px;
 }
+.ho-tro .ho-tro-item h2 {
+	color: var(--main-color);
+    	font-size: 35px;
+    	text-transform: uppercase;
+} 
 
 .ho-tro .ho-tro-item p {
 	color: var(--hotro-color);
@@ -562,7 +567,6 @@ a {
 	margin: 15px 0 30px;
 	text-align: justify;
 } 
-
 .ho-tro .ho-tro-item img {
 	width: 100%;
 	border-radius: 10px;
