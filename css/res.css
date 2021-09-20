@@ -20,7 +20,7 @@
 	}
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 768px) {
 	#main-menu {
 		flex-direction: column;
 		text-align: left;
